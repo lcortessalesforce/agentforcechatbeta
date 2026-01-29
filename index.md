@@ -131,7 +131,7 @@ h1 {
     <header>
         <nav>
             <a href="#">Help</a>
-            <a href="https://lcortessalesforce.github.io/customWebChatUI">Ask Agentforce</a>
+            <a href="https://lcortessalesforce.github.io/agentforcechatbeta">Ask Agentforce</a>
             <a href="#">Product Documentation</a>
             <a href="#">Trailhead Learning</a>
             <a href="#">My Cases</a>
@@ -151,6 +151,18 @@ h1 {
         <div id="embeddedMessagingContainer" class="chat-modal"></div>
     </main>
 
+<script type='text/javascript' 
+             id='init-agentforce-messaging' 
+             src='https://test-service.force.com/embeddedservice/agentforcemessaging/0.3/init.js' 
+             onload='agentforce_messaging.init({
+                    siteUrl: "lcortessalesforce.github.io",
+                    agentApiConfiguration: {
+                        agentId: "0XxWs000000wU0vKAE", 
+                        domainUrl: "https://storm-001a1a6640a1b1--pro.sandbox.my.salesforce.com"
+                    },
+                    uiConfiguration: {}
+            });'>
+</script>
 
     </body>
   </html>
