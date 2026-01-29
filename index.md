@@ -122,7 +122,7 @@ h1 {
              id='init-agentforce-messaging' 
              src='https://test-service.force.com/embeddedservice/agentforcemessaging/0.3/init.js' 
              onload='agentforce_messaging.init({
-                    siteUrl: "https://storm-001a1a6640a1b1--pro.sandbox.my.site.com/AFMagentforcechatbetagit1769714828168/",
+                    siteUrl: "https://storm-001a1a6640a1b1--pro.sandbox.my.site.com/AFMagentforcechatbetagit1769714828168",
                     agentApiConfiguration: {
                         agentId: "0XxWs000000wU0vKAE", 
                         domainUrl: "https://storm-001a1a6640a1b1--pro.sandbox.my.salesforce.com"
