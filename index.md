@@ -92,39 +92,6 @@ h1 {
     background-color: #0056b3;
 }
 
-/* Chat modal styles */
-#embeddedMessagingContainer {
-    display: none; /* Initially hidden */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-#embeddedMessagingContainer.show {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#embedded-messaging, #embeddedMessagingFrame {
-    height: 90%;
-    width: 90%;
-    border-radius: 10px;
-}
-
-#embeddedMessagingFrame {
-    box-shadow: none;
-}
-
-#embeddedMessagingConversationButton {
-    display: none;
-}
-      
     </style>
 </head>
 <body>
